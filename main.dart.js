@@ -92040,7 +92040,7 @@ s=p}while(true)switch(s){case 0:p=4
 i=t.N
 m=A.ae(["order_id",a,"product_id",a1,"package_id",a2,"product_name",d,"amount",B.d.j(b),"user_phone",f,"frontend_result_url","https://digitaldevdesign.com/gameverse-frontend/payment-callback?channel=wave&orderId="+a+"&productId="+a1+"&packageId="+a2+"&productName="+d+"&amount="+A.l(b)+"&phoneNo="+f],i,t.K)
 s=7
-return A.N(n.a.jm("http://127.0.0.1:8000/api/payment/wave/precreate",m,A.ae(["Content-Type","application/json"],i,t.z)),$async$lT)
+return A.N(n.a.jm("https://gameverse-api.digitaldevdesign.com/api/payment/wave/precreate",m,A.ae(["Content-Type","application/json"],i,t.z)),$async$lT)
 case 7:l=a4
 i=t.a
 k=i.a(l.a)
