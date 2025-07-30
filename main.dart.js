@@ -23901,7 +23901,7 @@ aHJ(a){var s=0,r=A.Q(t.ne),q,p,o,n,m,l,k,j,i
 var $async$ZN=A.M(function(b,c){if(b===1)return A.N(c,r)
 while(true)switch(s){case 0:i=B.a6
 s=3
-return A.V($.Zi().akt("config/app_config.json"),$async$ZN)
+return A.V($.Zi().akt("assets/config/app_config.json"),$async$ZN)
 case 3:k=i.ju(0,c,null)
 j=J.cY(k)
 if(j.ag(k,a)){j=j.i(k,a)
