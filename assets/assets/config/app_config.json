@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "apiBaseUrl": "http://127.0.0.1:8000/api",
+    "imageBaseUrl": "http://127.0.0.1:8000",
+    "payAggregatorUrl": "https://pay-aggregator.digitaldevdesign.com/api/secure-payment/process-payment",
+    "frontendCallbackUrl": "http://127.0.0.1:8000/#/payment-callback",
+    "backendCallbackUrl": "http://127.0.0.1:8000/api/payment-callback"
+  },
+  "uat": {
+    "apiBaseUrl": "https://gameverse-api.digitaldevdesign.com/api",
+    "imageBaseUrl": "https://gameverse-api.digitaldevdesign.com",
+    "payAggregatorUrl": "https://pay-aggregator.digitaldevdesign.com/api/secure-payment/process-payment",
+    "frontendCallbackUrl": "https://gameverse.digitaldevdesign.com/#/payment-callback",
+    "backendCallbackUrl": "https://gameverse.digitaldevdesign.com/api/payment-callback"
+  },
+  "staging": {
+    "apiBaseUrl": "",
+    "imageBaseUrl": "",
+    "payAggregatorUrl": "",
+    "frontendCallbackUrl": "",
+    "backendCallbackUrl": ""
+  },
+  "production": {
+    "apiBaseUrl": "",
+    "imageBaseUrl": "",
+    "payAggregatorUrl": "",
+    "frontendCallbackUrl": "",
+    "backendCallbackUrl": ""
+  }
+}
