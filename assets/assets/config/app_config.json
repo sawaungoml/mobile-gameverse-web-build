@@ -11,7 +11,7 @@
     "imageBaseUrl": "https://gameverse-api.digitaldevdesign.com",
     "payAggregatorUrl": "https://pay-aggregator.digitaldevdesign.com/api/secure-payment/process-payment",
     "frontendCallbackUrl": "https://digitaldevdesign.com/gameverse-frontend/#/payment-callback",
-    "backendCallbackUrl": "https://gameverse.digitaldevdesign.com/api/payment-callback"
+    "backendCallbackUrl": "https://gameverse-api.digitaldevdesign.com/api/payment-callback"
   },
   "staging": {
     "apiBaseUrl": "",
